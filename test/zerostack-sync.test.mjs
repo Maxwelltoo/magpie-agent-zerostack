@@ -30,6 +30,7 @@ describe("zerostack.agent.js descriptor", () => {
     expect(agent.bin).toBe("zerostack")
     expect(agent.format).toBe("json")
     expect(agent.model).toBe("model")
+    expect(agent.effort).toBe(true)
     const out = connect({
       gateway: { url: "http://127.0.0.1:4141", v1: "http://127.0.0.1:4141/v1", key: "mp-k" },
     })

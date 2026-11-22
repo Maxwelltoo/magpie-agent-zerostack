@@ -1,6 +1,6 @@
 {
   "name": "magpie-agent-zerostack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect ZeroStack to magpie: pick a model on magpie's Agents page and sync it to ZeroStack's config.toml/yaml/json",
   "type": "module",
   "main": "./index.mjs",

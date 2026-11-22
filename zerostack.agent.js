@@ -15,6 +15,7 @@ export const agent = {
   config: "~/.magpie/zerostack-agent.json",
   format: "json",
   model: "model",
+  effort: true,
   notice:
     "ZeroStack reads its config on startup. Restart ZeroStack after switching models. (ZeroStack 只在启动时读取配置，切换模型后请重启 ZeroStack。)",
 }
