@@ -1,0 +1,28 @@
+{
+  "name": "magpie-agent-zerostack",
+  "version": "0.1.0",
+  "description": "Connect ZeroStack to magpie: pick a model on magpie's Agents page and sync it to ZeroStack's config.toml/yaml/json",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "zerostack.agent.js",
+    "index.mjs",
+    "lib/zerostack-files.mjs",
+    "lib/toml-edit.mjs",
+    "lib/zerostack-sync.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-agent",
+    "zerostack",
+    "llm-gateway"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  },
+  "magpie": {
+    "agent": "./zerostack.agent.js"
+  }
+}
